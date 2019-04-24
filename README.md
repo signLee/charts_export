@@ -347,8 +347,8 @@ handleDownload() {
         const {
             export_json_to_excel
         } = require('vendor/Export2Excel');
-        const tHeader = ['序号', '文章标题', '作者', '阅读数', '发布时间'];
-        const filterVal = ['id', 'title', 'author', 'views', 'display_time'];
+        const tHeader = ['序号', '文章标题', '作者', '阅读数', '发布时间'];//表头配置
+        const filterVal = ['id', 'title', 'author', 'views', 'display_time'];//单行数据对应的key值
         const list = [
             {id: 1, title: 2, author: 3, pageviews: 4, display_time: 5},
             {id: 6, title: 7, author: 8, pageviews: 9, display_time: 10},
